@@ -1,0 +1,134 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: #ebebeb;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.promocoes {
+    display: flex;
+    padding-left: 15px;
+    border: 3px solid gray;
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 10%;
+    border-radius: 15px;
+}
+
+h2{
+    font-weight: bolder;
+    color: #004AAD;
+    text-transform: uppercase;
+    
+    padding-right: 10px;
+}
+
+.promocoes .promo{
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+*{
+    background-color: #ebebeb;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.servicos{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-bottom: 100%;
+    border: 1px solid rebeccapurple;
+    border-radius: 15px;
+}
+
+.emprestimos{
+    margin-top: 2%;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 2%;
+    padding: 30px;
+    text-align: center;
+    border: 3px solid gray;
+    border-radius: 15px;
+}
+
+.emprestimos img{
+    border: 1px solid blue;
+}
+
+.financiamentos{
+    margin-top: 2%;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 2%;
+    padding: 30px;
+    text-align: center;
+    border: 3px solid gray;
+    border-radius: 15px;
+}
+
+.financiamentos img{
+    border: 1px solid blue;
+}
+
+.antecipacao{
+    margin-top: 2%;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 2%;
+    padding: 30px;
+    text-align: center;
+    border: 3px solid gray;
+    border-radius: 15px;
+}
+
+.antecipacao img{
+    border: 1px solid blue;
+}
+
+.rodape{
+border-top: 1px solid black;
+padding-top: 2%;
+}
+
+.rodape a{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+a img{ 
+    width: 50px;
+    height: 50px;
+    }
+
+.links{
+    margin-left: 5%;
+    float: left;
+}
+
+.contatos{
+    margin-left: 35%;
+    float: left;
+}
+
+.facebook{
+    margin-right: 5%;
+    margin-bottom: 30px;
+    float: right;
+}
+.instagram{
+    margin-right: 10%;
+    float: right;
+}
+
+.menuLateral{
+    border: 1px solid gray;
+    float: left;
+    padding-right: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+}
