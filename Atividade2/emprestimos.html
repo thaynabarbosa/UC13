@@ -1,45 +1,80 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Empréstimos</title>
-        <link rel="stylesheet" href="style.css">
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <header>
-            <div id="logo">
-                <img src="imagens/Financeira (1).png" alt="logotipo da financeira">
-            </div>
-        </header> 
 
-        <nav class="menuLateral">
-            <ul>
-                <li><a href="PaginaInicial.html">Página Principal</a></li>
-                <li><a href="emprestimos.html">Emprestimos</a></li>
-                <li><a href="#">Financiamentos</a></li>
-                <li><a href="#">Antecipação</a></li>
-                <li><a href="sejaNossoCliente.html">Seja Nosso Cliente</a></li>
-            </ul>
-        </nav>
+<head>
+    <title>Empréstimos</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+</head>
 
-        <div id="tipoEmprestimos">
-            <div class="emprestimos">
-                <h2>Pessoal</h2>
-                <p>No empréstimo pessoal, o pagamento das parcelas é de responsabilidade de quem pede o crédito</p>
-            </div>
-            <div class="emprestimos">
-                <h2>Consignado</h2>
-                <p>Já no consignado, as parcelas são descontadas diretamente da folha de pagamento ou do benefício do INSS de quem pediu os valores emprestados</p>
-            </div>
+<body>
+    <header>
+        <div id="logo">
+            <img src="imagens/Financeira (1).png" alt="logotipo da financeira">
         </div>
+    </header>
+
+    <nav class="menuLateral">
+        <ul>
+            <li><a href="PaginaInicial.html">Página Principal</a></li>
+            <li><a href="emprestimos.html">Emprestimos</a></li>
+            <li><a href="#">Financiamentos</a></li>
+            <li><a href="#">Antecipação</a></li>
+            <li><a href="sejaNossoCliente.html">Seja Nosso Cliente</a></li>
+        </ul>
+    </nav>
+
+    <div id="tipoEmprestimos">
+        <div class="emprestimos">
+            <h2>Pessoal</h2>
+            <p>No empréstimo pessoal, o pagamento das parcelas é de responsabilidade de quem pede o crédito</p>
+        </div>
+        <div class="emprestimos">
+            <h2>Consignado</h2>
+            <p>Já no consignado, as parcelas são descontadas diretamente da folha de pagamento ou do benefício do INSS
+                de quem pediu os valores emprestados</p>
+        </div>
+    </div>
+
+    <div id="simuladorEmprestimos">
+        <form>
+            <h2>Simulação de Empréstimos</h2>
+            <label>Tipo de empréstimo:</label>
+            <input type="radio" name="tipo" id="consignado">
+            <label>Consignado</label>
+            <input type="radio" name="tipo" id="Pessoal">
+            <label>Pessoal</label>
+            <br>
+            <br>
+            <label>Valor desejado:</label>
+            <input type="radio" name="valorDesejado" id="valor1">
+            <label>R$ 1.000,00</label>
+            <input type="radio" name="valorDesejado" id="valor2">
+            <label>R$ 3.000,00</label>
+            <input type="radio" name="valorDesejado" id="valor2">
+            <label>R$ 5.000,00</label>
+            <br>
+            <br>
+            <label>Quantidade de meses:</label>
+            <input type="text" name="QtdMeses" placeholder="EX: 12">
+            <br>
+            <br>
+            <label>Valor da parcela:</label>
+            <input type="text" name="QtdMeses" placeholder="R$ 120.00">
+            <br><br>
+            <button type="submit" id="btn_sejaCliente">Seja Nosso Cliente</button>
+        </form>
+    </div>
 
 
-        <footer class="rodape">
-            <a href="#" class="links">Acesso nossos links</a>
-            <a href="#" class="contatos">Contatos</a>
-            <a href="#" class="instagram"><img src="imagens/instagram.png" alt="instagram"></a>
-            <a href="#" class="facebook"><img src="imagens/facebook.png" alt="facebook"></a>
-        </footer>
 
-    </body>
+</body>
+
+<footer id="rodape">
+    <a href="#" class="links">Acesso nossos links</a>
+    <a href="#" class="contatos">Contatos</a>
+    <a href="#" class="instagram"><img src="imagens/instagram.png" alt="instagram"></a>
+    <a href="#" class="facebook"><img src="imagens/facebook.png" alt="facebook"></a>
+</footer>
+
 </html>
