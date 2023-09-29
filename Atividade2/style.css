@@ -106,7 +106,6 @@ a img{
 }
 
 nav{
-    
     width: 20%;
     margin: 0;
     padding: 0;
@@ -133,4 +132,16 @@ nav a:link{
 
 nav a:hover{
     background: #6da5f3;
+}
+
+#tipoEmprestimos{
+    display: block;
+    margin-top: 10px;
+    margin-left: 22%;
+    margin-right: 50%;
+    margin-bottom: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid gray;
+    border-radius: 15px;
 }
