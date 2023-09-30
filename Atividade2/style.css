@@ -11,7 +11,7 @@ body {
     float: right;
     text-align: justify;
     margin-right: 15%;
-    border: 1px solid red;
+    
 }
 
 #promocoes {
@@ -115,7 +115,7 @@ nav {
     padding: 0;
     float: left;
     margin-right: 10px;
-    border: 1px solid red;
+    
 }
 
 nav ul li {
@@ -146,10 +146,11 @@ nav a:hover {
 #principal {
     display: flex;
     width: 1000px;
+    margin-top: 10px;
     margin-left: 290px;
     padding-left: 0px;
     padding-right: 0px;
-    border: 1px solid red;
+    
 }
 
 
@@ -199,7 +200,6 @@ nav a:hover {
 h3 {
     font-weight: bolder;
     color: #004AAD;
-    border: 1px solid red;
     margin: 0;
     padding: 0;
 }
@@ -215,13 +215,49 @@ h3 {
 }
 
 #btn_cadastrar {
-    float: right;
     padding: 15px;
-    margin-right: 10%;
     width: 30%;
     border-radius: 10px;
     font-size: 15px;
     font-weight: bold;
     color: #004AAD;
     background: yellowgreen;
+}
+
+#form{
+    border-radius: 15px;
+    border: 2px solid gray;
+    width: 1000px;
+    margin-top: 10px;
+    margin-left: 290px;
+    padding: 15px;
+    text-align: center;
+}
+
+#descritivo{
+    width: 830px;
+    height: 120px;
+    margin: 10px;
+    margin-left: 85px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    
+}
+
+#descritivo img{
+    margin: 10px;
+    border: 1px solid blue;
+    float: left;
+}
+
+#descritivo p{
+    padding-top: 30px;
+}
+
+#sejaCliente{
+    width: 830px;
+    height: 350px;
+    margin: 10px;
+    padding: 0;
+    
 }
