@@ -1,0 +1,115 @@
+body{
+    width: 70%;
+    float: right;
+    text-align: justify;
+   
+}
+
+#inicio{
+    width: 25%;
+    border: 1px solid black;
+    background-color: rgba(153, 224, 241, 0.993);
+}
+
+#dados{
+    border: 1px solid black;
+    margin: 1em;
+    padding: 2px;
+    background-color: lightgray;
+}
+
+.opcoes{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#valor{
+    margin: 5px;
+    padding: 2px;
+}
+
+#btn_enviar{
+    margin: 5px;
+}
+
+#campo_pix h3{
+    margin-top: 1px;
+    margin-bottom: 1%;
+}
+
+#campo_pix{
+    display: none;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+    padding-bottom: 1%;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+#campo_cartao{
+    display: none;
+    background-color: lightgray;
+    border: 1px solid black;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+    padding-left: 6px;
+    padding-bottom: 2%;
+}
+
+#campo_cartao h3{
+    margin-top: 1px;
+    margin-bottom: 1%;
+}
+
+#campo_cartao input{
+    margin-bottom: 8px;
+}
+
+#visa{
+    width: 40px;
+    float: right;
+    display: none;
+}
+
+#mastercard{
+    width: 39px;
+    height: 30px;
+    float: right;
+    display: none;
+}
+
+.parcelas{
+    padding-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: block;
+    
+}
+
+#valorFinal{
+    display: none;
+    color:  black;
+    font-weight: bold;
+}
+
+#valorFinal label{
+    margin-right: 1em;
+    margin-bottom: 1em;
+    float: right;
+}
+
+#valorFinal input{
+    width: 30%;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+
+#confirma_pagamento{
+    display: none;
+    margin-left: 2em;
+}

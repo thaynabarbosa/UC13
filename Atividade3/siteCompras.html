@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site de Compras - Atividade 3</title>
+</head>
+<body>
+    <div id="inicio">
+        <form id="dados">
+            <label>Valor</label>
+            <input type="text" id="valor" onfocus="limpar()">
+            <br>
+            <input type="radio" name="pagamento" class="opcoes" value="pix">
+            <label>PIX</label>
+
+            <input type="radio" name="pagamento" class="opcoes" value="cartao">
+            <label>Cartão de Crédito</label>
+
+            <br>
+            <input type="button" id="btn_enviar" value="Informar dados" onclick="abrirPagamento()">
+        </form>
+
+        <div id="campo_pix">
+            <h3>PIX</h3>
+            <form>
+                <label name="cpf">CPF</label>
+                <input type="text" id="cpf" onkeyup="pix()">
+                <br>
+            </form>
+        </div>
+
+        <div id="campo_cartao">
+            <h3>Cartão de Crédito</h3>
+            <form id="formCartao">
+                <label>Número</label>
+                <input type="text" id="numCartao" onkeyup="cartao()">
+                <img src="imagem/visa.png" name="bandeira" id="visa" alt="Visa">
+                <img src="imagem/mastercard.png" name="bandeira" id="mastercard" alt="mastercard">
+                <br>
+                <label id="cartaoValido"></label>
+                <br>
+                <label>Titular</label>
+                <input type="text">
+                <br>
+                <label>Cód.Segurança</label>
+                <input type="text">
+                <br>
+                <label>vencimento</label>
+                <input type="text"placeholder="mm/aaaa">
+                <br>
+                <label>Parcelas</label>
+                <select id="parcelas_select" onchange="escolheParcela()">
+                    <option value="0">selecione</option>
+                    <option value="1">1x (sem juros)</option>
+                    <option value="2">2x (sem juros)</option>
+                    <option value="3">3x (sem juros)</option>
+                    <option value="4">4x (5% juros)</option>
+                    <option value="5">5x (10% juros)</option>
+                </select>
+                <br>
+                <label class="parcelas" id="umaVez">1x R$ 0,00</label>
+                <label class="parcelas" id="duasVezes">2x R$ 0,00</label>
+                <label class="parcelas" id="tresVezes">3x R$ 0,00</label>
+                <label class="parcelas" id="quatroVezes">4x R$ 0,00</label>
+                <label class="parcelas" id="cincoVezes">5x R$ 0,00</label>
+            </form>
+        </div>
+        <div>
+            <form id="valorFinal">
+            <label id="valorTotal"></label>
+            <br>
+            <input type="button" id="btn_pagar" value="Pagar" onclick="confirmaPag()">
+        </form>
+        </div>
+
+        <div id="confirma_pagamento">
+            <h3>Pagamento realizado com sucesso!</h3>
+        </div>
+
+    </div>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
