@@ -1,0 +1,30 @@
+
+/*Tamanho imagem quartos*/
+#quartos img{
+    height: 128px;
+}
+
+/*botão enviar formulario*/
+#btnEnviar{
+    font-weight: bold;
+    float: right;
+    width: 120px;
+    border-radius: 15px;
+}
+
+h3{
+    font-weight: bold;
+}
+
+/*Titulo do Conteudo*/
+#porqueHotel{
+text-transform: uppercase;
+font-weight: normal;
+}
+
+/*Ajuste do tamanho da imagem*/
+#imgConforto{
+    float: right;
+    height: 500px;
+}
+

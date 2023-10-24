@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Hotel</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <div class="row">
+            <div class="col-sm-12 border-bottom">
+                <h1>Hotel Transilvânia</h1>
+            </div>
+        </div>
+        <!-- Ofertas -->
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="container border mt-5">
+                    <h3 class="mt-3">Sinta o conforto acolhedor de nossas hospedagens</h3>
+                    <p>Hospede-se nos nossos hotéis com quartos a partir de R$ 100,00</p>
+                    <a class="btn btn-primary mb-3" href="#" role="button">Saiba mais</a>
+                </div>
+            </div>
+            <div class="col-sm-7 mt-5">
+                <img src="imagem/conforto.jpg" alt="" class="img-fluid" id="imgConforto">
+            </div>
+        </div>
+
+        <!-- Conteúdo -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mt-5">
+                    <h3 class="pb-2" id="porqueHotel">Por que se hospedar em nossos hotéis?</h3>
+                </div>
+            </div>
+            <!--Beneficios-->
+            <div class="row mb-3">
+                <div class="col-sm-6">
+                    <img src="imagem/caneca.png" alt="" class="float-start me-4">
+                    <h4>Delicioso Café da manhã</h4>
+                    <p>Incluso em todas as diárias</p>
+                </div>
+                <div class="col-sm-6">
+                    <img src="imagem/mapa.png" alt="" class="float-start me-4">
+                    <h4>Fácil acesso</h4>
+                    <p>Perto dos principais pontos turísticos</p>
+                </div>
+            </div>
+
+            <!--Quartos-->
+            <div class="row border mb-4" id="quartos">
+                <div class="col-sm-12">
+                    <h4 class="text-center mb-4 mt-3">Nossos Quartos</h4>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img src="imagem/quarto3.jpg" alt="quarto solteiro" class="mb-2">
+                    <p>Suíte solteiro</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img src="imagem/quarto2.jpg" alt="Suíte casal" class="mb-2">
+                    <p>Suíte Casal</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img src="imagem/quarto1.jpg" alt="Suíte Master" class="mb-2">
+                    <p>Suíte Master</p>
+                </div>
+            </div>
+
+            <!--Reserva-->
+            <div class="row mb-5 border">
+                <div class="col-sm-4">
+                    <h4>Faça sua reserva</h4>
+                    <p>Entre em contato conosco informando as datas desejadas.
+                        Lhe retornaremos informando a disponibilidade e repassando detalhes da reserva.</p>
+                </div>
+                <!--Formulário-->
+                <div class="col-sm-8">
+                    <!--Inicio do Formulário-->
+                    <form method="post" action="#">
+
+                        <div class="row row-cols-2 mb-3">
+                            <!-- Nome -->
+                            <div class="col mt-2">
+                                <label for="txtNome" class="form-label">Nome:</label>
+                                <input id="txtNome" class="form-control" type="text" name="nome">
+                            </div>
+                            <!-- Email -->
+                            <div class="col mt-2">
+                                <label for="txtEmail" class="form-label">E-mail:</label>
+                                <input id="txtEmail" class="form-control" type="text" name="email">
+                            </div>
+                             <!-- Data de Entrada -->
+                            <div class="col mt-2">
+                                <label for="txtDataEntrada" class="form-label">Data de entrada:</label>
+                                <input id="txtDataEntrada" class="form-control" type="date" name="dataEntrada">
+                            </div>
+                            <!-- Data de Saída -->
+                            <div class="col mt-2">
+                                <label for="txtDataSaida" class="form-label">Data de Saída:</label>
+                                <input id="txtDataSaida" class="form-control" type="date" name="dataSaida">
+                            </div>
+                             <!-- Observações -->
+                            <div class="col mb-4 mt-2">
+                                <label for="txtObservacoes" class="form-label">Observacoes:</label>
+                                <textarea id="txtObservacoes" class="form-control" aria-label="With textarea" name="observacoes"></textarea>
+                            </div>
+                            <!-- Adultos -->
+                            <div class="col-sm-3 mb-4 mt-2">
+                                <label for="txtAdulto" class="form-label">Adultos:</label>
+                                <input id="txtAdulto" class="form-control" type="text" name="adultos">
+                            </div>
+                            <!-- Crianças -->
+                            <div class="col-sm-3 mb-4 mt-2">
+                                <label for="txtCriancas" class="form-label">Crianças:</label>
+                                <input id="txtCriancas" class="form-control" type="text" name="criancas">
+                            </div>
+                             <!-- Botão Enviar -->
+                            <div class="col-sm-12 mb-4 me-5">
+                                <input id="btnEnviar"type="submit" class="btn btn-primary" value="Enviar">
+                            </div>
+                      
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<footer>
+<!--
+Referencia das imagens usadas no site.
+
+<a href="https://br.freepik.com/fotos-gratis/quarto-de-estilo-moderno-de-luxo-interior-de-um-quarto-de-hotel-ilustracao-generativa-de-ia_38632756.htm#query=hotel&position=16&from_view=search&track=sph">Imagem de benzoix</a> no Freepik
+
+
+<a href="https://br.freepik.com/fotos-gratis/design-moderno-apartamento-com-quarto-e-sala-de-estar_2448708.htm#query=hotel&position=23&from_view=search&track=sph">Imagem de katemangostar</a> no Freepik
+
+
+
+<a href="https://br.freepik.com/fotos-gratis/luxo-classico-moderno-quarto-suite-em-hotel_10332602.htm#query=hotel&position=20&from_view=search&track=sph">Imagem de dit26978</a> no Freepik
+
+
+Imagem de <a href="https://br.freepik.com/fotos-gratis/vista-traseira-de-um-mulher-esticar-corpo-apos-despertar-cama_3699872.htm#query=hotel&position=2&from_view=search&track=sph">Freepik</a>
+
+
+<a href="https://www.flaticon.com/br/icones-gratis/caneca" title="caneca ícones">Caneca ícones criados por iconixar - Flaticon</a>
+
+
+<a href="https://www.flaticon.com/br/icones-gratis/pin" title="pin ícones">Pin ícones criados por Freepik - Flaticon</a>
+
+-->
+</footer>
+
+
+</html>
